@@ -1,0 +1,63 @@
+body {
+    background: #07f6e6;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 500px;
+    margin: 20px auto;
+    text-align: center;
+    color: #333;
+}
+
+.btn {
+    margin: 10px;
+    background: #3498db;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #007bff;
+}
+
+.fact-text {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #555;
+}
+
+/* Creative Styles */
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 36px;
+    color: #3498db;
+}
+
+#fetchFactBtn {
+    background: #f39c12;
+}
+
+#factContainer {
+    border: 2px solid #f39c12;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Add some animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+#factContainer p {
+    animation: fadeIn 1s ease;
+}
